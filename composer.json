@@ -1,0 +1,21 @@
+{
+    "name": "jhoy/arquitectura-practica",
+    "authors": [
+        {
+            "name": "Jhoseph",
+            "email": "jhoseph.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "App/"
+        ],
+        "files": [
+            "bootstrap.php"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^8",
+        "illuminate/database": "^7"
+    }
+}
